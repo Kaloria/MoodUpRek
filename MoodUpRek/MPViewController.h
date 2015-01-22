@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MPViewController : UIViewController
+@interface MPViewController : UIViewController <
+    UITableViewDataSource,
+    UITableViewDelegate
+>
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 

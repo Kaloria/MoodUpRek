@@ -14,6 +14,7 @@
 		C6BAD4971A70D68500EC028B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BAD4961A70D68500EC028B /* Images.xcassets */; };
 		C6BAD49A1A70D68500EC028B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BAD4981A70D68500EC028B /* LaunchScreen.xib */; };
 		C6BAD4A61A70D68500EC028B /* MoodUpRekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BAD4A51A70D68500EC028B /* MoodUpRekTests.m */; };
+		E971EA031A7150D500EA0322 /* MPTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E971EA021A7150D500EA0322 /* MPTextTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C6BAD49F1A70D68500EC028B /* MoodUpRekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodUpRekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BAD4A41A70D68500EC028B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6BAD4A51A70D68500EC028B /* MoodUpRekTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoodUpRekTests.m; sourceTree = "<group>"; };
+		E971EA011A7150D500EA0322 /* MPTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTextTableViewCell.h; sourceTree = "<group>"; };
+		E971EA021A7150D500EA0322 /* MPTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTextTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C6BAD4961A70D68500EC028B /* Images.xcassets */,
 				C6BAD4981A70D68500EC028B /* LaunchScreen.xib */,
 				C6BAD4891A70D68500EC028B /* Supporting Files */,
+				E971EA011A7150D500EA0322 /* MPTextTableViewCell.h */,
+				E971EA021A7150D500EA0322 /* MPTextTableViewCell.m */,
 			);
 			path = MoodUpRek;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6BAD4921A70D68500EC028B /* MPViewController.m in Sources */,
+				E971EA031A7150D500EA0322 /* MPTextTableViewCell.m in Sources */,
 				C6BAD48F1A70D68500EC028B /* AppDelegate.m in Sources */,
 				C6BAD48C1A70D68500EC028B /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				C6BAD4AB1A70D68500EC028B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6BAD4AC1A70D68500EC028B /* Build configuration list for PBXNativeTarget "MoodUpRekTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				C6BAD4AE1A70D68500EC028B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
