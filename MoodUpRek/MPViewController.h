@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MPViewController.h
 //  MoodUpRek
 //
 //  Created by Ewa Żebrowska on 22/01/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MPViewController : UIViewController
 
 
 @end

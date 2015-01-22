@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C6BAD48C1A70D68500EC028B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BAD48B1A70D68500EC028B /* main.m */; };
 		C6BAD48F1A70D68500EC028B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BAD48E1A70D68500EC028B /* AppDelegate.m */; };
-		C6BAD4921A70D68500EC028B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BAD4911A70D68500EC028B /* ViewController.m */; };
+		C6BAD4921A70D68500EC028B /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BAD4911A70D68500EC028B /* MPViewController.m */; };
 		C6BAD4951A70D68500EC028B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BAD4931A70D68500EC028B /* Main.storyboard */; };
 		C6BAD4971A70D68500EC028B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BAD4961A70D68500EC028B /* Images.xcassets */; };
 		C6BAD49A1A70D68500EC028B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BAD4981A70D68500EC028B /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		C6BAD48B1A70D68500EC028B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6BAD48D1A70D68500EC028B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6BAD48E1A70D68500EC028B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C6BAD4901A70D68500EC028B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C6BAD4911A70D68500EC028B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6BAD4901A70D68500EC028B /* MPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPViewController.h; sourceTree = "<group>"; };
+		C6BAD4911A70D68500EC028B /* MPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPViewController.m; sourceTree = "<group>"; };
 		C6BAD4941A70D68500EC028B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6BAD4961A70D68500EC028B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C6BAD4991A70D68500EC028B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				C6BAD48D1A70D68500EC028B /* AppDelegate.h */,
 				C6BAD48E1A70D68500EC028B /* AppDelegate.m */,
-				C6BAD4901A70D68500EC028B /* ViewController.h */,
-				C6BAD4911A70D68500EC028B /* ViewController.m */,
+				C6BAD4901A70D68500EC028B /* MPViewController.h */,
+				C6BAD4911A70D68500EC028B /* MPViewController.m */,
 				C6BAD4931A70D68500EC028B /* Main.storyboard */,
 				C6BAD4961A70D68500EC028B /* Images.xcassets */,
 				C6BAD4981A70D68500EC028B /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6BAD4921A70D68500EC028B /* ViewController.m in Sources */,
+				C6BAD4921A70D68500EC028B /* MPViewController.m in Sources */,
 				C6BAD48F1A70D68500EC028B /* AppDelegate.m in Sources */,
 				C6BAD48C1A70D68500EC028B /* main.m in Sources */,
 			);
@@ -345,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MoodUpRek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MoodUpRek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

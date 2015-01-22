@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  MPViewController.m
 //  MoodUpRek
 //
 //  Created by Ewa Żebrowska on 22/01/15.
 //  Copyright (c) 2015 Ewa Żebrowska. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MPViewController.h"
 
-@interface ViewController ()
+@interface MPViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MPViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
